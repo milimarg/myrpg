@@ -1,0 +1,12 @@
+7 text_flower E 950 1000 2 50
+1 map_top 0 0 2400 2400 map_top 0
+3 moonbloom1 1258 850 flower:flower moonbloom talkingmoonbloom
+3 moonbloom2 1768 1205 flower:flower moonbloom talkingmoonbloom
+3 moonbloom3 1090 1540 flower:flower moonbloom talkingmoonbloom
+1 map 0 0 2400 2400 map 1 /main_map/map_collision.png
+2 cave_tp 1535 1625 785 835 370 420 main_map cave 2
+2 castle_tp 645 675 690 745 370 820 main_map end 2
+2 shop_tp 970 1000 710 760 405 225 main_map shop 2
+2 magic_tower_tp 1030 1055 925 960 15 185 main_map magic_tower 1
+2 tavern_tp 790 830 1330 1400 280 410 main_map tavern 0
+2 blacksmith_tp 650 680 1260 1290 898 502 main_map blacksmith 2

@@ -1,0 +1,5 @@
+1 night 0 0 2400 2400 night_filter 0
+3 guard 700 820 guard1:guard2 guard talking_guard
+1 map_top 0 0 2400 2400 map_top 0
+1 map 0 0 2400 2400 map 1 /main_map/map_collision.png
+2 castle_tp 645 675 690 745 960 240 main_map_night castle 3

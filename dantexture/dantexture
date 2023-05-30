@@ -1,0 +1,69 @@
+#!/usr/bin/env python3
+
+import sys
+from PIL import Image
+from random import randrange
+
+wall_path = "./block.png"
+ground_path = "./stone.png"
+text_size = 8
+text_size_squared = pow(text_size, 2)
+
+map_content = sys.stdin.read()
+map_split = map_content.split("\n")
+wall_nb = map_content.count("X")
+ariane_thread_nb = map_content.count("o")
+ground_nb = map_content.count("*")
+map_height = len(map_split)
+map_width = len(map_split[0])
+
+three = ""
+sectors_nb = 1
+
+image = Image.new(
+    mode="RGB",
+    size=(map_width * text_size_squared, map_height * text_size_squared),
+    color=(0, 0, 0)
+)
+
+print(wall_nb + ariane_thread_nb)
+
+a = text_size_squared, text_size_squared
+wall = Image.open(wall_path).resize(a, Image.Resampling.LANCZOS)
+#Image.new(
+#    mode="RGB",
+#    size=a,
+#    color=(255, 0, 0)
+#)
+ground = Image.open(ground_path).resize(a, Image.Resampling.LANCZOS)
+ground_solving = Image.new(
+    mode="RGB",
+    size=a,
+    color=(128, 0, 0)
+)
+
+for i in range(map_height):
+    for j in range(map_width):
+        offset = j * text_size_squared, i * text_size_squared
+        try:
+            if map_split[i][j] == 'X':
+                image.paste(wall, offset)
+                if sectors_nb == wall_nb + ariane_thread_nb:
+                    print(f"rectangle {j * text_size_squared} {i * text_size_squared} 0 {text_size_squared} {text_size_squared} {text_size_squared}", end='')
+                else:
+                    print(f"rectangle {j * text_size_squared} {i * text_size_squared} 0 {text_size_squared} {text_size_squared} {text_size_squared}")
+                sectors_nb += 1
+            elif map_split[i][j] == 'o':
+                image.paste(ground_solving, offset)
+                if sectors_nb == wall_nb + ariane_thread_nb:
+                    print(f"rectangle {j * text_size_squared} {i * text_size_squared} {text_size_squared} {text_size_squared} {text_size_squared} {text_size_squared}", end='')
+                else:
+                    print(f"rectangle {j * text_size_squared} {i * text_size_squared} {text_size_squared} {text_size_squared} {text_size_squared} {text_size_squared}")
+                ariane_thread_nb += 1
+            else:
+                image.paste(ground, offset)
+        except IndexError:
+            pass
+
+#image.show()
+image.save("dante_solved.png")

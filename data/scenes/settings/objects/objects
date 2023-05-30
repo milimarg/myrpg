@@ -1,0 +1,28 @@
+7 text_resolution Resolution 500 640 1 40
+7 text_resolution Screen 500 540 1 40
+7 text_resolution Sound 350 400 1 40
+7 text_resolution Music 650 400 1 40
+0 sound_decrease 100 300 344 134 button_minus 8
+0 sound_increase 300 300 344 134 button_plus 9
+0 music_decrease 500 500 344 134 button_minus 10
+0 sound_increase 700 500 344 134 button_plus 11
+0 fullscreen 300 600 344 134 fullscreen 12
+0 windowed 600 600 344 134 windowed 13
+0 resolution_one 300 750 344 134 1920x1080 14
+0 resolution_two 600 750 344 134 1320x720 15
+0 back 1450 200 344 134 button_back_settings 16
+0 forward 1400 390 344 134 button_edit 24
+0 backward 1400 460 344 134 button_edit 25
+0 left 1400 530 344 134 button_edit 26
+0 right 1400 600 344 134 button_edit 27
+0 inventory 1400 670 344 134 button_edit 28
+0 attack 1400 740 344 134 button_edit 29
+0 interact 1400 810 344 134 button_edit 30
+7 text_keys Forward 1200 400 1 40
+7 text_keys Back 1200 470 1 40
+7 text_keys Left 1200 540 1 40
+7 text_keys Right 1200 610 1 40
+7 text_keys Inventory 1200 680 1 40
+7 text_keys Attack 1200 750 1 40
+7 text_keys Interact 1200 820 1 40
+6 settings_background 120 86 settings_bg

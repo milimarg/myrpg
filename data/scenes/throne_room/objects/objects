@@ -1,0 +1,5 @@
+3 king 383 140 king:king king king
+3 front_guard 280 160 guard1:guard1 front_guard front_guard
+3 front_guard_2 470 160 guard1:guard1 front_guard_2 front_guard_2
+1 map 0 0 800 450 throne_room 1 /castle/throneroom_map_collision.png
+2 main_map_tp 250 300 430 460 800 1400 throne_room main_map 2

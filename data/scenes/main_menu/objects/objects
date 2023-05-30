@@ -1,0 +1,7 @@
+0 newgame 665 420 0 0 newgame_button 1
+0 locked_continue 665 570 0 0 locked_continue_button 3
+0 continue 665 570 0 0 continue_button 3
+0 settings 665 720 0 0 settings_button 2
+0 quit 983 720 0 0 quit_button 0
+0 title 42 42 0 0 title 18
+1 map 0 0 2400 2400 map 0

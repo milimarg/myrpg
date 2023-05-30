@@ -1,0 +1,3 @@
+7 death_text THE 550 200 1 150
+7 death_text END... 950 200 1 150
+1 map -800 -100 2400 2400 map 1 /main_map/map_collision.png

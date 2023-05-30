@@ -1,0 +1,6 @@
+0 pause_back_to_game 656 220 0 0 pause_back_to_game_button 17
+0 pause_load 670 394 0 0 pause_load_button 6
+0 pause_save 976 394 0 0 pause_save_button 5
+0 pause_character 670 518 0 0 pause_character_button 4
+0 pause_settings 976 518 0 0 pause_settings_button 2
+0 pause_save_and_quit 656 630 0 0 pause_save_and_quit_button 7

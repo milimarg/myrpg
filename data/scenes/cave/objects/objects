@@ -1,0 +1,10 @@
+5 bandit 100 2 720 600 bandit_attack_l bandit_attack_r bandit_run_l bandit_run_r 3 1 25 25 10 60 110 60 10 60 110 60 3
+5 bandit 100 2 350 700 bandit_attack_l bandit_attack_r bandit_run_l bandit_run_r 3 1 25 25 10 60 110 60 10 60 110 60 3
+5 bandit 100 2 480 550 bandit_attack_l bandit_attack_r bandit_run_l bandit_run_r 3 1 25 25 10 60 110 60 10 60 110 60 3
+5 bandit 100 1 800 900 bandit_attack_l bandit_attack_r bandit_run_l bandit_run_r 3 1 25 25 10 60 110 60 10 60 110 60 1
+5 bandit 100 1 1000 500 bandit_attack_l bandit_attack_r bandit_run_l bandit_run_r 3 1 25 25 10 60 110 60 10 60 110 60 3
+5 bandit 100 1 350 900 bandit_attack_l bandit_attack_r bandit_run_l bandit_run_r 3 1 25 25 10 60 110 60 10 60 110 60 0
+5 bandit 100 1 350 500 bandit_attack_l bandit_attack_r bandit_run_l bandit_run_r 3 1 25 25 10 60 110 60 10 60 110 60 2
+1 map 0 0 1536 1536 cave 1 /cave/cave_collision.png
+2 main_map_tp 350 400 360 410 1530 850 cave main_map 2
+2 maze_tp 910 960 390 460 100 100 cave maze 0

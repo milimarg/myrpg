@@ -1,0 +1,3 @@
+3 wizard 100 100 intro:retrieve wizard_sprite talking_wizard_sprite
+1 map 0 0 300 300 magic_tower 1 /magic_tower/enchant_room_collision.png
+2 main_map_tp 0 15 160 200 1000 950 magic_tower main_map 3
