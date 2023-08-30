@@ -1,6 +1,6 @@
 # myrpg
 
-Epitech project where you have to create a 2D rpg game.
+First year Epitech project where you have to create a 2D rpg game.
 
 ## Compilation
 
